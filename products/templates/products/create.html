@@ -14,7 +14,7 @@
 
 <h1>Create</h1>
 
-<form class="" action="#" method="POST" enctype="multipart/form-data">
+<form class="" action="{% url 'create' %}" method="POST" enctype="multipart/form-data">
 {% csrf_token %}
 <label for="">Title:</label>
 <br>
